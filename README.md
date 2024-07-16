@@ -1,6 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Flight Booking Project
+
+## Overview
+
+This project is a flight booking application built with React and styled using Chakra UI. It displays available flights, popular destinations, and great deals on plane tickets.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+- [Components](#components)
+- [Images](#images)
+- [Video](#video)
+- [License](#license)]
+
+
+## Installation
+
+To get started with the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/sumanpitla/kernn-assignment.git
+cd flight-booking
+npm install
+```
+
+## Project Structure
+
+The project structure is organized as follows:
+
+```plaintext
+flight-booking/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── FlightCard.js
+│   │   ├── FlightList.js
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   │   ├── PopularDestinations.js
+│   │   ├── GreatDeals.js
+│   │   └── Photos/
+│   │       ├── hyderabad.jpg
+│   │       ├── rome.jpg
+│   │       ├── lisbon.jpg
+│   │       ├── amsterdam.jpg
+│   │       └── flags/
+│   │           ├── france.png
+│   │           ├── italy.png
+│   │           ├── germany.png
+│   │           ├── poland.png
+│   │           ├── india.png
+│   │           ├── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+└── README.md
+```
 
 ## Available Scripts
 
@@ -11,60 +72,34 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Navbar**: Navigation bar for the application.
+- **Footer**: Footer section with company info and links.
+- **FlightList**: Lists available flights.
+- **FlightCard**: Individual flight card component.
+- **PopularDestinations**: Displays popular destinations with images.
+- **GreatDeals**: Displays great deals on plane tickets with country flags.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Images
+![navbar_booking_popular](https://github.com/user-attachments/assets/1097a0e4-9abe-4628-bb87-c6e31eebf5e0)
 
-### `npm run eject`
+![great_deals](https://github.com/user-attachments/assets/d6d9c514-d47f-47f5-b040-f11e334f0ee0)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![flight_list](https://github.com/user-attachments/assets/9d984bc3-1ada-4000-9f87-2d6f1a063a80)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![footer](https://github.com/user-attachments/assets/2828bb36-b188-4ef5-a254-d790f51868c7)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Video
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://github.com/user-attachments/assets/e7fc938d-b420-47bc-9e6e-64b0c5022254
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
