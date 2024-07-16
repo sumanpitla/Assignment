@@ -13,7 +13,8 @@ This project is a flight booking application built with React and styled using C
 - [Components](#components)
 - [Images](#images)
 - [Video](#video)
-- [License](#license)]
+- [License](#images)
+
 
 
 ## Installation
@@ -21,8 +22,8 @@ This project is a flight booking application built with React and styled using C
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/sumanpitla/kernn-assignment.git
-cd flight-booking
+git clone https://github.com/sumanpitla/Kernn_Assignment.git
+cd Kernn_Assignment
 npm install
 ```
 
@@ -31,7 +32,7 @@ npm install
 The project structure is organized as follows:
 
 ```plaintext
-flight-booking/
+Kernn_Assignment/
 ├── public/
 │   ├── index.html
 │   └── ...
@@ -87,17 +88,20 @@ Launches the test runner in the interactive watch mode.
 - **GreatDeals**: Displays great deals on plane tickets with country flags.
 
 ## Images
-![navbar_booking_popular](https://github.com/user-attachments/assets/1097a0e4-9abe-4628-bb87-c6e31eebf5e0)
+![navbar_booking_popular](https://github.com/user-attachments/assets/0097a221-b938-4790-ba48-8a060c7a91b6)
 
-![great_deals](https://github.com/user-attachments/assets/d6d9c514-d47f-47f5-b040-f11e334f0ee0)
+![great_deals](https://github.com/user-attachments/assets/c24c3cd6-8021-4c77-aca6-44a4afdc4996)
 
-![flight_list](https://github.com/user-attachments/assets/9d984bc3-1ada-4000-9f87-2d6f1a063a80)
+![flight_list](https://github.com/user-attachments/assets/c579aa3c-f1a8-49a3-9947-906313a9468c)
 
-![footer](https://github.com/user-attachments/assets/2828bb36-b188-4ef5-a254-d790f51868c7)
+![footer](https://github.com/user-attachments/assets/9b46219e-4e01-4d5a-9b01-4476cd70b27d)
+
 
 ## Video
 
-https://github.com/user-attachments/assets/e7fc938d-b420-47bc-9e6e-64b0c5022254
+
+https://github.com/user-attachments/assets/2c9c2f0f-fa20-4ed9-9a5c-5a30d73900b1
+
 
 
 ## License
